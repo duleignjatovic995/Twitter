@@ -43,8 +43,11 @@ public class TwitterPoruka {
 	/**
 	 * Postavlja se nova vrednost atributa
 	 * @param poruka
-	 * @throws java.lang.RuntimeException ako poruka nije uneta
-	 * ili ako je poruka duza od 140 karaktera.
+	 * @throws java.lang.RuntimeException ako poruka
+	 * <ul>
+	 * 		<li>nije uneta</li>
+	 * 		<li>je duza od 140 karaktera.</li>
+	 * </ul>
 	 */
 	public void setPoruka(String poruka) {
 	if (poruka==null || this.poruka.length()>140)
