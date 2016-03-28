@@ -1,8 +1,13 @@
 package com.twitter;
-
 import java.util.LinkedList;
 import com.twitter.poruke.TwitterPoruka;
 
+/**
+ * Klasa predstavlja kolekciju
+ * poruka (objekata klase TwitterPoruka).
+ * @author Dusan Ignjatovic
+ *
+ */
 public class Twitter {
 	/**
 	 * Lista poruka

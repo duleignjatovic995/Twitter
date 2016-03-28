@@ -1,5 +1,10 @@
 package com.twitter.poruke;
-
+/**
+ * Klasa predstavlja poruku odredjenog 
+ * korisnika na twitteru.
+ * @author Dusan Ignjatovic
+ *
+ */
 public class TwitterPoruka {
 	
 	/**
